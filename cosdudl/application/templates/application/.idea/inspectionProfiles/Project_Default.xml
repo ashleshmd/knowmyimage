@@ -1,0 +1,56 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E302" />
+          <option value="W605" />
+          <option value="E231" />
+          <option value="E111" />
+          <option value="E202" />
+          <option value="W292" />
+          <option value="E131" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N802" />
+          <option value="N806" />
+          <option value="N801" />
+          <option value="N803" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="next" />
+          <option value="list" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="mysite.mysite.wsgi.*" />
+          <option value="mysite.mysite.views" />
+          <option value="mac.blog.urls.BASE_DIR" />
+          <option value="onlineGallery.gallery.views.user_name" />
+          <option value="onlineGallery.gallery.views.first_name" />
+          <option value="onlineGallery.gallery.views.last_name" />
+          <option value="onlineGallery.gallery.views.user_mail" />
+          <option value="onlineGallery.gallery.views.user_password1" />
+          <option value="onlineGallery.gallery.views.user_password2" />
+          <option value="onlineGallery.gallery.models.product_id" />
+          <option value="onlineGallery.gallery.models.*" />
+          <option value="test1.test1.views.models" />
+          <option value="test1.test1.views.test2" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="XmlDuplicatedId" enabled="true" level="WARNING" enabled_by_default="true" />
+  </profile>
+</component>
